@@ -6,3 +6,13 @@ Al inicializar un repositorio en un directorio, git crea una carpeta oculta en �
 
 La staging area es una especie de buffer entre el directorio de trabajo y el repositorio. Un commit no necesariamente contiene todos los archivos del directorio de trabajo. Estos se van agregando uno por uno a la staging area mediante la instrucción add. Finalmente, se hace el commit, que consiste en crear una nueva snapshot en el repositorio con los archivos de la staging area actualizados. Por todo esto, su valor está en agrupar cambios a diversos archivos en un solo commit, permitiendo una coherencia lógica cuando la justificación de su existencia abarca más de un archivo.
 
+¿Cómo puedo usar la staging area para asegurarme de hacer un commit por cada cambio lógico?
+
+Como dijo la señora, antes de hacer un commit puedo comparar el directorio de trabajo con la staging area y cerciorarme de que los cambios que muestra git diff efectivamente correspondan a un paso lógico dentro del desarrollo.
+
+¿Cuáles son algunas situaciones donde crear ramas podría ser útil para mantener mi historial organizado? ¿Cómo podrían ayudar las ramas?
+
+Podría repetir lo que dijeron en el mismo curso: si quiero crear una versión experimental de un proyecto, me conviene más crear una rama donde probar por sobre enlodar la historia principal con posible basura que tendré que posiblemente remover. Por otro lado, como las ramas llevan etiquetado permiten mayor facilidad a la hora de cambiar de versión, a diferencia de la secuencia incomprensible de caracteres que es el ID de un commit. También está el tema de la fusión de ramas, que supongo se verá más adelante. Fusionar una versión alternativa y dejada de lado con una más reciente me permite actualizarla fácilmente.
+
+
+
