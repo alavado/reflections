@@ -1,0 +1,32 @@
+El tamaño de los archivos era demasiado grande como para analizarlos manualmente línea por línea, por lo que la herramienta permite superar nuestras capacidades.
+
+Por otro lado, y ahora centrándose más en contestar la pregunta, los cambios introducidos en la nueva versión eran el origen del error, por lo que advertirlos es el primer paso para corregirlo. De acuerdo a lo señalado en el párrafo anterior, la herramienta de comparación permite prescindir de la memoria al momento de conocer los cambios que distinguen cada versión, permitiendo o facilitando por lo tanto la corrección de errores.
+
+En resumen, la herramienta diff (o cp en Windows) es útil en la corrección de errores en el código, puesto que permite la versión errónea con alguna version correcta más antigua.
+
+¿Por qué tener acceso al historial de modificaciones de un archivo me podría volver un programador más eficiente en el largo plazo?
+
+Por lo visto anteriormente, esto permitiría comparar dos versiones para ayudarme a encontrar errores con mayor facilidad, ahorrándome mucho tiempo en comparación con la alternativa de buscar manualmente cada modificación para dar con el error.
+
+Sin embargo, esto es cierto solo en el caso puntual de la comparación más reciente. ¿De qué manera me ayudaría contar con el historial completo? Es difícil imaginar cómo podria ayudarme tener acceso a las primeras versiones de mis programas. Probablemente revisar la evolución del código podría ayudarme a entender mejor mi proceso de desarrollo, permitiéndome optimizarlo en el futuro al anticiparme a cambios o mejoras en su estructura que pude concebir durante el desarrollo actual. Sí, esto suena bien.
+
+¿Cuáles crees que son los pros y los contras de elegir manualmente cuándo hacer un commit versus guardar versiones automáticamente, tal como lo hace Google Docs?
+
+El lado bueno de un guardado manual es que puedo crear un versionado lógicamente consistente si es que tengo buena memoria y soy ordenado. El lado malo es si no tengo buena memoria ni soy ordenado. Por lo mismo, la ventaja del sistema de Google Docs es que no requiere que yo piense, pero las versiones guardadas resultan antojadizas.
+
+¿Por qué crees que algunos sistemas de control de versiones, como Git, permiten guardar varios archivos en un solo commit, mientras que otros, como Google Docs, tratan cada archivo por separado?
+
+Porque sistemas como Git están diseñados para trabajar en proyectos de programación, donde los archivos están frecuentemente interconectados lógicamente. Sistemas como Google Docs, en cambio, están enfocados al tratamiendo de documentos auto contenidos, por naturaleza de escritura aislada de los demás.
+
+¿Cómo puedes usar los comandos git log y git diff para ver el historial de un archivo?
+
+El comando git log me permite revisar todos los commits que se han hecho a lo largo de la vida de un archivo, con su respectivo comentario e identificador único. Luego, usando git diff puedo comparar dos versiones del archivo utilizando dos identificadores de commit como parámetro, permiténdome comprobar qué se ha agregado o eliminado en una versión respecto de la otra.
+
+¿Cómo el usar control de versiones te otorga más confianza para hacer cambios que podrían destruirlo todo?
+
+Un sistema de control de versiones me permite revertir los cambios hasta el último punto donde todo funcionaba correctamente. Haciendo commits regulares, ante una destrucción de mi proyecto puedo simplemente revertir los cambios hasta la última versión previa a tal catástrofe. Esto lo vuelve todo más superfluo, puesto que nada importa en realidad, siempre que adquiera la disciplina adecuada. Como dijo el regordete, el control de versiones permite explorar nuevas alternativas sin preocuparse de las consecuencias.
+
+Ahora que has configurado tu ambiente de trabajo, ¿para qué quieres intentar usar Git?
+
+Quiero hacer un repositorio para el código de mi tesis, muy bonito y con muchos commits que pueda deshacer, porque suelo equivocarme.
+
