@@ -1,0 +1,8 @@
+¿Qué pasa cuando inicializo un repositorio? ¿Por qué debo hacerlo?
+
+Al inicializar un repositorio en un directorio, git crea una carpeta oculta en él, donde guarda los metadatos necesarios para que funcione el control de versiones. Por lo mismo, esta inicialización es necesaria, pues indica a Git que el directorio no es cualquiera, sino uno trascendente de cuyo historial deberá hacerse cargo. Es importante recordar que la incialización de un repositorio no conlleva un primer commit, sino que este debe efectuarse de manera manual.
+
+¿En qué se diferencia la staging area del directorio de trabajo y el repositorio? ¿Qué valor creo que ofrece?
+
+La staging area es una especie de buffer entre el directorio de trabajo y el repositorio. Un commit no necesariamente contiene todos los archivos del directorio de trabajo. Estos se van agregando uno por uno a la staging area mediante la instrucción add. Finalmente, se hace el commit, que consiste en crear una nueva snapshot en el repositorio con los archivos de la staging area actualizados. Por todo esto, su valor está en agrupar cambios a diversos archivos en un solo commit, permitiendo una coherencia lógica cuando la justificación de su existencia abarca más de un archivo.
+
