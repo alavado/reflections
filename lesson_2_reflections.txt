@@ -14,5 +14,9 @@ Como dijo la señora, antes de hacer un commit puedo comparar el directorio de t
 
 Podría repetir lo que dijeron en el mismo curso: si quiero crear una versión experimental de un proyecto, me conviene más crear una rama donde probar por sobre enlodar la historia principal con posible basura que tendré que posiblemente remover. Por otro lado, como las ramas llevan etiquetado permiten mayor facilidad a la hora de cambiar de versión, a diferencia de la secuencia incomprensible de caracteres que es el ID de un commit. También está el tema de la fusión de ramas, que supongo se verá más adelante. Fusionar una versión alternativa y dejada de lado con una más reciente me permite actualizarla fácilmente.
 
+¿Cómo los diagramas me ayudan a visualizar la estructura de las ramas?
+
+Los diagramas proporcionan una representación visual de la jerarquía de los commits dentro del repositorio. Como buena visualización, facilitan el entendimiento de la estructura de los datos; en este caso, del historial de cambios de los archivos. Toma mucho menos tiempo entender un árbol enlazado que un log críptico con fondo negro.
+
 
 
