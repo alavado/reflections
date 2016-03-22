@@ -18,5 +18,9 @@ Podría repetir lo que dijeron en el mismo curso: si quiero crear una versión e
 
 Los diagramas proporcionan una representación visual de la jerarquía de los commits dentro del repositorio. Como buena visualización, facilitan el entendimiento de la estructura de los datos; en este caso, del historial de cambios de los archivos. Toma mucho menos tiempo entender un árbol enlazado que un log críptico con fondo negro.
 
+¿Cuál es el resultado de fusionar dos ramas? ¿Por qué las representamos en el diagrama en el modo como lo hacemos?
+
+Fusionar dos ramas significa en una significa que, para cada archivo y cuando es posible hacerlo automáticamente, se toma en primer lugar el contenido no ambiguo y se agrega en una nueva versión. Luego, comparando las cabezas de ambas ramas con el punto de divergencia entre ellas, se van agregando las líneas dependiendo de si se puede determinar acaso fueron agregadas o removidas. Con esto se forma una rama única, que contiene la unión lógica de los últimos commits de las ramas que se están fusionando. Dado lo anterior, la representación en el diagrama es directa, pues ilustra la confluencia de dos brazos en uno solo, con un nuevo padre para todos los nodos de ambas ramas.
+
 
 
