@@ -8,3 +8,7 @@ d) Por lo tanto, siempre.
 ¿Por qué podrías preferir siempre tener que hacer pull de los cambios en lugar de que Git automáticamente se mantuviera actualizado respecto de tu repositorio remoto?
 Debido a que los cambios efectuados en los archivos remotos o locales podrían presentar conflictos entre sí. Entonces, hacer pull o push manualmente obliga al paso previo de resolver los conflictos antes de sincronizar ambos repositorios.
 
+Describe las diferencias entre forks, clones y ramas. ¿Cuándo usaría uno en lugar del otro?
+Tanto forks, clones y ramas están compuestos de commits, pero sus orígenes difieren. Una rama es parte de un repositorio, y, si cuando no es la única, surge a partir de algún commit sobre el cual se desea tomar otro camino. Un clon es una copia de un repositorio a través de Git; es decir, de todos sus commits. La copia puede efectuarse a partir de un repositorio local o uno remoto, y fuera de sus contenidos no guarda ninguna relación con su origen. Un fork es similar a un clon, pero realizado desde GitHub. Además de copiar todos los archivos, da crédito a su origen a través de un enlace y un contador que da cuenta de su popularidad.
+Usaría las ramas para hacer pruebas experimentales, los clones para hacer copias locales y el fork para trabajar sobre el proyecto de alguien más.
+
