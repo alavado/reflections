@@ -1,0 +1,6 @@
+¿Cuándo preferiría usar un repositorio remoto por sobre uno local?
+Se me ocurren varios escenarios.
+a) Mi proyecto es tan importante que no quiero perderlo cuando me vuelvan a robar el computador.
+b) Trabajo desde distintos computadores en el proyecto.
+c) No es un proyecto personal.
+d) Por lo tanto, siempre.
