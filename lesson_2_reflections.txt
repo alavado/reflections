@@ -22,5 +22,7 @@ Los diagramas proporcionan una representación visual de la jerarquía de los co
 
 Fusionar dos ramas significa en una significa que, para cada archivo y cuando es posible hacerlo automáticamente, se toma en primer lugar el contenido no ambiguo y se agrega en una nueva versión. Luego, comparando las cabezas de ambas ramas con el punto de divergencia entre ellas, se van agregando las líneas dependiendo de si se puede determinar acaso fueron agregadas o removidas. Con esto se forma una rama única, que contiene la unión lógica de los últimos commits de las ramas que se están fusionando. Dado lo anterior, la representación en el diagrama es directa, pues ilustra la confluencia de dos brazos en uno solo, con un nuevo padre para todos los nodos de ambas ramas.
 
+¿Cuáles son los pro y los contras del merging automático de Git versus siempre fusionar los archivos manualmente?
 
+Los pro se remiten al ahorro de trabajo de la automatización del mundo. Los contra, en lo mismo: no sabemos si realmente Git está haciendo bien su trabajo.
 
