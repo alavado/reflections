@@ -14,3 +14,6 @@ Usaría las ramas para hacer pruebas experimentales, los clones para hacer copia
 
 ¿Cuál es el beneficio de tener una copia del último estado conocido del remoto guardado localmente?
 Creo que esto permite hacer fast-forward merge. Si no hubiera una copia del último estado del repositorio remoto, no habría forma de comprobar que ese estado es un ancestro del estado actual del repositorio local. Además, esto permite volver a esa versión en caso de ser necesario.
+
+¿Cómo colaboraría sin usar Git o GitHub? ¿Qué sería más fácil, y qué sería más difícil?
+Sería más fácil porque ni yo ni mis colaboradores hubieramos tenido que hacer un curso como este. Probablemente tendríamos que reunirnos periódicamente para juntar todo nuestro trabajo, actividad que suena muy difícil incluso para un producto pequeño. Es decir, Git y GitHub son muy útiles, ya no hay duda así que no veo la necesidad de seguir reflexionando al respecto.
