@@ -4,3 +4,7 @@ a) Mi proyecto es tan importante que no quiero perderlo cuando me vuelvan a roba
 b) Trabajo desde distintos computadores en el proyecto.
 c) No es un proyecto personal.
 d) Por lo tanto, siempre.
+
+¿Por qué podrías preferir siempre tener que hacer pull de los cambios en lugar de que Git automáticamente se mantuviera actualizado respecto de tu repositorio remoto?
+Debido a que los cambios efectuados en los archivos remotos o locales podrían presentar conflictos entre sí. Entonces, hacer pull o push manualmente obliga al paso previo de resolver los conflictos antes de sincronizar ambos repositorios.
+
