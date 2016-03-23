@@ -17,3 +17,7 @@ Creo que esto permite hacer fast-forward merge. Si no hubiera una copia del últ
 
 ¿Cómo colaboraría sin usar Git o GitHub? ¿Qué sería más fácil, y qué sería más difícil?
 Sería más fácil porque ni yo ni mis colaboradores hubieramos tenido que hacer un curso como este. Probablemente tendríamos que reunirnos periódicamente para juntar todo nuestro trabajo, actividad que suena muy difícil incluso para un producto pequeño. Es decir, Git y GitHub son muy útiles, ya no hay duda así que no veo la necesidad de seguir reflexionando al respecto.
+
+¿Cuándo es preferible hacer cambios en una rama aparte por sobre hacerlos directamente en la rama maestra? ¿Qué beneficios tiene cada enfoque?
+Preferiría hacerlos en una rama aparte cuando estoy experimentando cosas, si mi equipo está trabajando en paralelo y los cambios de seguro deberán ser revisados, o si simplemente pienso que mi trabajo podría requerir retroalimentación por parte de mi equipo antes de ser incorporado a la rama principal. Esto agrega el costo de interactuar con la gente, pero asegura que el cambio será bien recibido. Trabajar directamente en la rama maestra es más rápido, por lo que es preferible cuando el desarrollo está en una etapa más directa.
+
